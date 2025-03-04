@@ -1,50 +1,56 @@
-# Welcome to your Expo app 👋
+# RefugeeBot Frontend
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A mobile application designed to help refugees access resources, support, and information in their native language.
 
-## Get started
+## Features
 
-1. Install dependencies
+### Registration Flow
+- Simple registration process to collect basic information
+- Language preference selection
+- Country of origin data collection
 
-   ```bash
-   npm install
-   ```
+### Chat with AI Assistant
+- Interact with an AI bot that provides personalized support
+- Multilingual support for various refugee languages
+- Get help with form filling, resource discovery, and guidance
 
-2. Start the app
+### News & Resources
+- Stay updated with relevant news and announcements
+- Access information about services and support programs
+- Categorized resources for easy discovery
 
-   ```bash
-    npx expo start
-   ```
+### Profile & Settings
+- View and manage your profile information
+- Track upcoming appointments and tasks
+- Adjust application settings
+- View history of interactions and assistance
 
-In the output, you'll find options to open the app in a
+## Tech Stack
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- React Native / Expo
+- Expo Router for navigation
+- AsyncStorage for local data storage
+- Azure Functions backend for AI integration
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Getting Started
 
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
+1. Install dependencies:
+```
+npm install
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+2. Start the development server:
+```
+npm start
+```
 
-## Learn more
+3. Run on iOS or Android:
+```
+npm run ios
+# or
+npm run android
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+## Contributing
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Contributions are welcome! Please feel free to submit a Pull Request.
